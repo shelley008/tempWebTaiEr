@@ -1,0 +1,125 @@
+.subNav-wrap {
+  height: 97px;
+  overflow: hidden;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  @extend %shadow;
+
+  & .subNav-logo{
+     width:210px;
+     height:97px;
+     overflow: hidden;
+     float: left;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+    & img{
+      height:97px;
+      width:140px;
+      float: left;
+    }
+    & h2{
+      color:opacityColor(red,0.5);
+      @extend %uppercase;
+      flex: 1;
+      display: block;
+      font-size: 18px;
+      & i{
+        font-size:18px;
+        display: block;
+      }
+    }
+  }
+
+  & .subNav-menu{
+    flex:1;
+    & li{
+      float:left;
+      margin-right:10px;
+      font-size:14px;
+      & a{
+        color:opacityColor(black,0.5);
+        &:hover{
+          color:opacityColor(red,0.8)
+        }
+      }
+      & a.current{
+        color:opacityColor(black,1);
+        font-size:24px;
+      }
+    }
+    & li:nth-last-of-type(1){
+      margin-right:0;
+    }
+  }
+
+  & .subNav-right{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height:24px;
+    line-height: 24px;
+    margin-right:20px;
+    & i{
+      top:6px;
+      margin-right:5px;
+    }
+    & span{
+     display: inline-block;
+      margin-left:10px
+    }
+  }
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  .subNav-wrap {
+    & .subNav-logo{
+      width:280px;
+      height:97px;
+      & img{
+        height:97px;
+        width:140px;
+      }
+      & h2{
+        flex: 1;
+        display: block;
+        font-size: 24px;
+        & i{
+          font-size:18px;
+          display: block;
+        }
+      }
+    }
+    & .subNav-menu{
+      & li{
+        margin-right:20px;
+        font-size: 18px;
+        line-height: 1rem;
+        & a.current{
+          font-size:24px;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media (min-width: 992px) {
+
+
+}
+@media (min-width: 1200px) {
+
+}

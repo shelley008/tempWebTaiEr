@@ -1,0 +1,40 @@
+
+/* === format color === */
+@function opacityColor($name,$o) {
+  @if $name == red {
+    @return rgba(255,82,0,$o);
+  } @else if  $name == black {
+    @return rgba(0,0,0,$o);
+  } @else if  $name == white {
+    @return rgba(255,255,255,$o);
+  } @else if  $name == green {
+    @return rgba(255,82,0,$o);
+  }
+}
+
+/* === color === */
+$fontDefault:#313131;
+$fontRed:opacityColor(red,1);
+$fontBlack:opacityColor(black,1);
+$fontWhite:opacityColor(white,1);
+
+.bg-primary, %bg-primary {
+  color: #fff;
+  background:#000000;
+}
+a.bg-primary:hover {
+  background: #000000;
+}
+
+
+/* === shadow === */
+%shadow{
+ box-shadow:0 1px 5px 3px rgba(0,0,0,0.05 );
+}
+
+
+/* === uppercase === */
+%uppercase{
+text-transform: uppercase;
+}
+

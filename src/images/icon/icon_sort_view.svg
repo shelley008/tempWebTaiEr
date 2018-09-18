@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="34px" viewBox="0 0 30 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.7%" y="-11.3%" width="101.4%" height="126.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.75">
+        <g id="测评列表" transform="translate(-1765.000000, -93.000000)">
+            <g id="Group-10" filter="url(#filter-1)" transform="translate(0.000000, 60.000000)">
+                <g transform="translate(-22.000000, -33.000000)" id="Group-8">
+                    <g transform="translate(1655.000000, 69.000000)">
+                        <g id="Group-7" transform="translate(137.000000, 2.000000)">
+                            <g id="Group-6">
+                                <rect id="Rectangle" x="0" y="0" width="19.2" height="19.2"></rect>
+                                <g id="burn-button" transform="translate(2.400000, 0.000000)" fill="#000000" fill-rule="nonzero">
+                                    <path d="M8.66823529,0 C8.66823529,0 9.24423529,2.4 9.24423529,4.32 C9.24423529,6.144 7.99627294,7.68 6.17223529,7.68 C4.34819765,7.68 2.90823529,6.144 2.90823529,4.32 L2.90823529,4.032 C1.08423529,6.24 0.0282352941,9.024 0.0282352941,12 C0.0282352941,15.936 3.29223529,19.2 7.22823529,19.2 C11.1642353,19.2 14.4282353,15.936 14.4282353,12 C14.4282353,7.104 12.2202353,2.784 8.66823529,0 Z M7.22823529,16.32 C5.59623529,16.32 4.34823529,15.072 4.34823529,13.536 C4.34823529,12.096 5.30823529,11.04 6.84423529,10.752 C8.47627294,10.4640376 10.1082353,9.696 10.9722353,8.448 C11.3562353,9.6 11.5482353,10.848 11.5482353,12.096 C11.5482353,14.4 9.62823529,16.32 7.22823529,16.32 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

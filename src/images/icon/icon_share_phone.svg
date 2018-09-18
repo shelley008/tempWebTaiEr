@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>phone-symbol-of-an-auricular-inside-a-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.4%" y="-4.4%" width="100.7%" height="112.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-1412.000000, -43.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-19" filter="url(#filter-1)">
+                <g id="Group-26" transform="translate(1328.000000, 45.000000)">
+                    <g id="phone-symbol-of-an-auricular-inside-a-circle" transform="translate(88.000000, 0.000000)">
+                        <path d="M11.9805926,0 C5.36439506,0 4.9382716e-05,5.36434568 4.9382716e-05,11.9805432 C4.9382716e-05,18.596642 5.36439506,23.9610864 11.9805926,23.9610864 C18.5967901,23.9610864 23.961037,18.5965926 23.961037,11.9805432 C23.9610864,5.36434568 18.5967901,0 11.9805926,0 Z M18.3071111,17.4809383 L17.3478519,18.4403951 C17.1765926,18.6114074 16.6751111,18.7181235 16.6590123,18.7181235 C13.6243457,18.7445926 10.7024198,17.5525926 8.55555556,15.4055309 C6.40281481,13.2515556 5.2094321,10.3192099 5.24148148,7.27432099 C5.24148148,7.27293827 5.35130864,6.78582716 5.52241975,6.61634568 L6.48162963,5.65698765 C6.83264198,5.30434568 7.50691358,5.14498765 7.97925926,5.30301235 L8.18103704,5.37032099 C8.652,5.52819753 9.14646914,6.04893827 9.27659259,6.52869136 L9.75911111,8.29965432 C9.88923457,8.78079012 9.7137284,9.46528395 9.36281481,9.8162963 L8.72232099,10.4568889 C9.35116049,12.7848889 11.1777778,14.6118519 13.5061728,15.2422222 L14.1464198,14.6014815 C14.4990617,14.2488395 15.1833086,14.0734815 15.6634074,14.2034074 L17.4341235,14.6876543 C17.9139753,14.8195062 18.4346173,15.3108642 18.5924444,15.781679 L18.6597531,15.9863704 C18.8161975,16.4573827 18.6580741,17.1315062 18.3071111,17.4809383 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

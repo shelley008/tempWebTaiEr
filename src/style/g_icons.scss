@@ -1,0 +1,82 @@
+/* === header icon === */
+.icon{
+  display:inline-block;
+  width:24px;
+  height:24px;
+}
+.icon-search{
+  background:url("../images/icon/icon_search.svg") no-repeat;
+  background-size:cover;
+}
+.icon-user{
+  background:url("../images/icon/icon_user.svg") no-repeat;
+  background-size:cover;
+}
+
+.icon-logo{
+  display:block;
+  width:60px;
+  height:24px;
+  background:url("../images/icon/logo_main.svg") no-repeat;
+  background-size:cover;
+}
+/* === footer icon === */
+.icon-share-wx{
+  background:url("../images/icon/icon_share_wexin.svg") no-repeat;
+  background-size:cover;
+ }
+.icon-share-wbo{
+  background:url("../images/icon/icon_share_weibo.svg") no-repeat;
+  background-size:cover;
+}
+.icon-share-iphone{
+  background:url("../images/icon/icon_share_phone.svg") no-repeat;
+  background-size:cover;
+}
+
+
+/* === nav icon === */
+.icon_base_nav{
+  position: relative;
+  width:getSize(20);
+  height:getSize(20);
+  display:inline-block;
+}
+
+@mixin iconBase($size) {
+  width:getSize($size);
+  height:getSize($size);
+  content: '';
+  display: block;
+  background-size: cover;
+  position: absolute;
+  left:50%;
+  top:50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.icon-sort-time:after{
+  background:url("../images/icon/icon_sort_time.svg") no-repeat;
+  @include iconBase(25);
+}
+.icon-sort-view:after{
+  background:url("../images/icon/icon_sort_view.svg") no-repeat;
+  @include iconBase(25);
+}
+
+.sort-bar-off{
+  color:opacityColor(black,0.5);
+  .icon-sort-time:after,.icon-sort-view:after{
+  }
+}
+.sort-bar-on{
+  color:opacityColor(black,1);
+  .icon-sort-time:after,.icon-sort-view:after{
+
+  }
+}
+
+
+
